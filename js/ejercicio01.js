@@ -34,10 +34,10 @@ function evaluarQuiz() {
     
     html = "<table class='table'>";
     html += "<tr>";
-    html += "<td>Pregunta</td>";
-    html += "<td>Respuesta Usuario</td>";
+    html += "<td>Ejercicio</td>";
+    html += "<td>Respuesta Elegida</td>";
     html += "<td>Respuesta Correcta</td>";
-    html += "<td>Imagen</td>";
+    html += "<td>Resultado</td>";
     html += "<tr>";
     //en i < 4 usar el número de preguntas que haya
     for (let i = 0; i < 4; i++) {
@@ -50,7 +50,7 @@ function evaluarQuiz() {
     }
     html += "</table>";
     //2.5 * aciertos colocar el puntaje que recibe cada respuesta correcta
-    html += "<span class='display-1'><h3>Calificación "+ 2.5 * aciertos +"</h3></span>"
+    html += "<span class='display-1'><h3>Calificación "+ 2.5 * aciertos +" (Máx. 10 pts.)</h3></span>"
     document.getElementById('resultado').innerHTML = html;
   } else {
     alert("falta contestar preguntas");
