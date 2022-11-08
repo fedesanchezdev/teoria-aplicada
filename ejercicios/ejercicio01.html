@@ -14,7 +14,8 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="https://fedecello.wixsite.com/violoncello" target="_blank">Federico Sánchez</a>
+            <a class="navbar-brand" href="https://fedecello.wixsite.com/violoncello" target="_blank">Federico
+                Sánchez</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,17 +29,17 @@
             </div>
         </div>
     </nav>
-    
+
     <div class="container">
         <div class="row my-5">
             <!-- Columna Principal -->
             <div class="col-12 pt-5">
                 <h1>Ejercicios</h1>
-                
+
                 <h4 class="mt-4">Ejercicio 1 - Elige la secuencia correcta de las notas.</h4>
 
-                <!-- Pregunta 1 -->    
-                <img src="../img/0101.png" class="img-fluid mt-5"> 
+                <!-- Pregunta 1 -->
+                <img src="../img/0101.png" class="img-fluid mt-5">
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="p1" id="r11" value="a">
                     <label class="form-check-label" for="r11">
@@ -82,19 +83,19 @@
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="p2" id="r23" value="c">
                     <label class="form-check-label" for="r23">
-                        C:  Do Re | La Do | Sol Re | Do ||
+                        C: Do Re | La Do | Sol Re | Do ||
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="p2" id="r24" value="d">
                     <label class="form-check-label" for="r24">
-                        D:  Do Sol | Re Do | La Re | Do ||
+                        D: Do Sol | Re Do | La Re | Do ||
                     </label>
                 </div>
                 <br>
 
-            <!-- Pregunta 3 -->
-            <img src="../img/0103.png" class="img-fluid mt-5">
+                <!-- Pregunta 3 -->
+                <img src="../img/0103.png" class="img-fluid mt-5">
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="p3" id="r31" value="a">
                     <label class="form-check-label" for="r31">
@@ -121,8 +122,8 @@
                 </div>
                 <br>
 
-            <!-- Pregunta 4 -->
-            <img src="../img/0104.png" class="img-fluid mt-5">
+                <!-- Pregunta 4 -->
+                <img src="../img/0104.png" class="img-fluid mt-5">
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="p4" id="r41" value="a">
                     <label class="form-check-label" for="r41">
@@ -148,22 +149,21 @@
                     </label>
                 </div>
 
-                <button onclick="evaluarQuiz()" class="btn btn-success mt-2 col-12 col-md-3">Confirmar y evaluar</button>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6" id="resultado">
+                        <h4></h4>
+                        <hr>
+                    </div>
+                </div>
+
+                <button onclick="evaluarQuiz()" class="btn btn-success mt-2 col-12 col-md-3">Confirmar y
+                    evaluar</button>
                 <button onclick="resetQuiz()" class="btn btn-danger mt-2 col-12 col-md-3">Borrar respuestas</button>
 
+                <div class="row mt-5">
+                    <a class="btn btn-primary" href="#" role="button">Clase 2 (En breve)</a>
+                </div>
             </div>
-
-            <div class="row mt-5">
-                <div class="col-12 col-md-6" id="resultado">
-                <h4>Resultado</h4>
-                <hr>
-            </div>
-            </div>
-
-            <div class="row">
-                <a class="btn btn-primary" href="#" role="button">Clase 2 (En breve)</a>
-            </div>
-            
         </div>
     </div>
 
