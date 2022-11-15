@@ -1,5 +1,5 @@
 function evaluarQuiz() {
-  let respuestasCorrectas = ["c", "c", "b", "c", "a", "d", "d", "a", "a", "b"]; //insertar respuestas correctas de cada pregunta
+  let respuestasCorrectas = ["C", "C", "B", "C", "A", "D", "D", "A", "A", "B"]; //insertar respuestas correctas de cada pregunta
   let respuestasUsuario = new Array();
   let respuestasPregunta = new Array();
   let aciertos = 0;
